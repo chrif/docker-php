@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+    php:
+        build: .
+        image: chrif/docker-php7-symfony3
+
