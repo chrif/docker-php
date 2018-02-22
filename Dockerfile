@@ -1,6 +1,6 @@
-FROM php:7.1-fpm-alpine
+FROM php:7.2-fpm-alpine
 
-# https://github.com/linuxjuggler/php-7.1-xdebug-alpine
+# https://github.com/linuxjuggler/php-7.2-xdebug-alpine/blob/master/Dockerfile
 
 RUN apk update \
 	&& apk add  --no-cache git curl libmcrypt libmcrypt-dev icu-dev \
